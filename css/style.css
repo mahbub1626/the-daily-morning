@@ -1,0 +1,14 @@
+#category-ul {
+    list-style-type: none;
+    /* display: flex;
+    flex-direction: row; */
+    background-color: aliceblue;
+    padding: 12px;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    #category-ul {
+        flex-direction: column;
+    }
+}
