@@ -51,6 +51,7 @@ const displayNews = newses => {
                             <span>
                             <i>${news.author.name}</i>
                             <small class="text-muted">${news.author.published_date}</small>
+                            <small class="m-4">view: ${news.total_view}</small>
                             </span>
                             </div>
                         </div>
