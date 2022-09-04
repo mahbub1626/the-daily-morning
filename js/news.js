@@ -35,8 +35,6 @@ const displayNews = newses => {
     const newsContainer = document.getElementById('news-container');
     newsContainer.textContent = '';
     newses.forEach(news => {
-        // console.log(news.category_id)
-        // console.log(news);
         const newsDiv = document.createElement("div");
         newsDiv.classList.add('card');
         newsDiv.innerHTML = `
@@ -55,9 +53,9 @@ const displayNews = newses => {
                             <span>
                             <i>${news.author.name}</i>
                             <small class="text-muted">${news.author.published_date}</small>
-                            <small class="m-4">view: ${news.total_view}</small>
+                            <small class="m-4">views: ${news.total_view}</small>
                             </span>
-                            <button class="btn btn-primary mr-4">Details</button>
+                            <button class="btn btn-primary mr-4" >Details</button>
                             </div>
                         </div>
                     </div>
