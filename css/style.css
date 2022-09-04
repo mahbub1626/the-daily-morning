@@ -6,9 +6,19 @@
     padding: 12px;
 }
 
+#category-ul a {
+    text-decoration: none;
+}
+
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
     #category-ul {
         flex-direction: column;
     }
+}
+
+.card {
+    /* mb-3 p-4 */
+    margin-bottom: 10px;
+    padding: 4px;
 }
